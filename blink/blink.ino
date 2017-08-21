@@ -3,7 +3,7 @@ void setup(){
 }
 
 void loop(){
-	blink(13, 1000);
+	blink(13, 500);
 }
 
 void blink(int pin, int del){
