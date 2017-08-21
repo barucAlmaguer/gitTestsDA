@@ -3,8 +3,12 @@ void setup(){
 }
 
 void loop(){
+	blink(1000);
+}
+
+void blink(int del){
 	digitalWrite(13, HIGH);
-	delay(1000);
+	delay(del);
 	digitalWrite(13, LOW);
-	delay(1000);
+	delay(del);
 }
