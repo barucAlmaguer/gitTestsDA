@@ -6,7 +6,7 @@ void loop(){
 	blink(1000, 13);
 }
 
-void blink(int del, int pin){
+void blink(int pin, int del){
 	digitalWrite(pin, HIGH);
 	delay(del);
 	digitalWrite(pin, LOW);
