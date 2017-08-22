@@ -1,3 +1,5 @@
+#include "lib_blink.h"
+
 void setup(){
 	pinMode(13, OUTPUT);
 }
